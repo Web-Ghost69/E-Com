@@ -1,0 +1,276 @@
+*
+{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Container
+{
+    height: 100%;
+    width: 100%;
+}
+ 
+/* CSS for Side-bar */
+
+.Side-bar
+{
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+   background-color:  #74C0FC;
+    left: -250px;
+    transition: all 0.3s ease;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.active
+{
+    left: 0%;
+}
+
+.Close-btn
+{
+    position: absolute;
+    cursor: pointer;
+    right: 8%;
+    top: 2%;
+    font-size: x-large;
+    color: #fff;;
+}
+ul li
+{
+    list-style: none;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+/* CSS for Nav-bar */
+.Nav-bar
+{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #9683FA;
+    color: #fff;
+}
+
+.Icon
+{
+    height: 4rem;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.Cart-Icon
+{
+    color: #fff;
+}
+
+.Open-btn
+{
+   font-size: xx-large; 
+   cursor: pointer;
+}
+
+
+
+
+
+/* CSS for Search panel */
+
+.Search-panel{
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #74C0FC;
+}
+
+/* CSS for Cart  */
+
+.Cart
+{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Cart-Icon
+{
+font-size: x-large;
+cursor: pointer;
+}
+
+
+.Sign-in-btn{
+    color: #fff;
+    background-color: #74C0FC;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+/* CSS for MAIN_SECTION */
+
+.Cart-Section
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #74C0FC;
+    margin-top: 2%;
+
+
+}
+.Cart-Container
+{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 2%;
+    text-align: center;
+   
+
+}
+.Cart-Items{
+    height:40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-container
+{
+    height: 100%;
+    width: 30vh;
+   
+}
+.Item-specs
+{
+    height: 100%;
+    width: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+
+    
+}
+.removebtn
+{
+    height: 100%;
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.Remove-btn
+{
+height: 3rem;
+width: 7rem;
+border: none;
+border-radius: 1rem;
+background-color: #74C0FC;
+color: #fff;
+cursor: pointer;
+}
+.Img 
+{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+ /* CSS FOR TOTAL PRICE SECTION */
+.Total-Price
+{
+    height: 20vh;
+    width: 100%;
+    border-bottom:2px solid #74C0FC;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.Buy-Now-Button
+{
+    background-color:#74C0FC;
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    margin-top: 2%;
+    cursor: pointer;
+   
+}
+
+/* CSS FOR ABOUT SECTION */
+.About-Section
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About
+{
+   
+    height: 100%;
+    width: 90%;
+    color: #fff;
+    text-align: center;
+    background-color: #9683FA;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.fa-instagram 
+{
+    font-size: xx-large;
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+

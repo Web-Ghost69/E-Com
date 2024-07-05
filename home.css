@@ -1,0 +1,376 @@
+*
+{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Container
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+/* CSS for Side-bar */
+
+.Side-bar
+{
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    background-color:#74C0FC;
+    left: -250px;
+    transition: all 0.3s ease;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.active
+{
+    left: 0%;
+}
+
+.Close-btn
+{
+    position: absolute;
+    cursor: pointer;
+    right: 8%;
+    top: 2%;
+    font-size: x-large;
+    color: #fff;;
+}
+ul li
+{
+    list-style: none;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size:large;
+}
+
+ul li a:hover
+{
+    text-decoration: underline;
+    color:black;
+}
+
+
+
+
+
+/* CSS for Nav-bar */
+.Nav-bar
+{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9683FA;
+    color: #fff;
+}
+
+
+.Icon
+{
+    height: 4rem;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.Open-btn
+{
+   font-size: xx-large; 
+   cursor: pointer;
+}
+.Sign-in-btn
+{
+    color: #fff;
+    border: 2px solid ;
+
+}
+
+
+
+
+
+
+/* CSS for Search panel */
+
+.Search-panel{
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search-bar
+{
+    height: 3rem;
+    width: 30em;
+    padding-left: 2%;
+    border: none;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-right: none;
+}
+input:focus
+{
+outline:none;
+}
+
+
+.Search-btn
+{
+height: 3rem;
+width:3rem;
+border-top-right-radius: 1rem;
+border-bottom-right-radius: 1rem;
+cursor: pointer;
+background-color: #74C0FC;
+border: none;
+
+}
+.Search-icon
+{
+    font-size: x-large;
+    color: #fff;
+   
+}
+
+
+
+
+
+
+/* CSS for Cart  */
+
+.Cart
+{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Cart-Icon
+{
+font-size: x-large;
+cursor: pointer;
+}
+.Sign-in-btn
+{
+    border: none;
+    font-size: larger;
+    background-color: transparent;
+    cursor: pointer;
+    background-color:  #74C0FC;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+/* CSS for MAIN_SECTION */
+
+.Main-Section
+{
+    height: 320vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+
+
+}
+.Product-Container
+{
+    height: 300vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+
+}
+
+.Product-item
+{ 
+    height: 48vh;
+    width: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.Product-img
+{
+    height: 25vh;
+    width:25vh;
+
+}
+
+.Product-specs
+{
+    height: 20vh;
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.Title
+{
+    font-size: 14px;
+    text-align: center;
+    height: 4rem;
+}
+.Price
+{
+    text-align: center;
+}
+
+.addToCart
+{
+    height: 2rem;
+    width:10rem;
+    border-radius: 1rem;
+    background-color: rgb(252, 168, 12);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+
+    /* CSS FOR SEARCH-SECTION */
+.Search-Container
+{
+   
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+    text-align: center;
+    gap: 45px;
+}
+.Search-item
+{
+    height: 40vh;
+    width: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.Cart-img
+{
+    height: 20vh;
+    width:25vh;
+  
+}
+.Img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.Search-Section
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* CSS FOR ABOUT-SECTION */
+.About-Section
+{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About
+{
+    height: 60vh;
+    width: 90%;
+    color: #fff;
+    text-align: center;
+    background-color: #9683FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Para
+{
+    height: 10vh;
+    width: 70%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#Contact-info
+{
+    height: 40vh;
+    width: 70%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap: 30px;
+}
+
+.fa-instagram 
+{
+    font-size: xx-large;
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
